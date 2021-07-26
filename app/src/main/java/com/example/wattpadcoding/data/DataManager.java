@@ -26,6 +26,8 @@ import androidx.annotation.WorkerThread;
 /**
  * Some code here has been borrowed from greendao documentation, from
  * https://github.com/greenrobot/greenDAO
+ * Ideally would have been nice to create a async task to be used for all background calls but for
+ * saving time used standard android provided ones
  */
 public class DataManager {
     private final DaoSession daoSession;

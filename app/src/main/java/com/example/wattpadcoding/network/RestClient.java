@@ -12,6 +12,9 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+/**
+ * Code here has been borrowed from retrofit documentation
+ */
 public class RestClient implements Callback<ResponseModel> {
     private static final String BASE_URL = "https://www.wattpad.com/api/v3/";
     private DataManager dataManager;
