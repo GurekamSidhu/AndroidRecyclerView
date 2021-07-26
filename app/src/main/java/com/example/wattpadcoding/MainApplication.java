@@ -17,6 +17,9 @@ public class MainApplication extends Application {
         setupDataBase();
     }
 
+    /**
+     * Using devopen helper but ideally should create a custom helper to init the db for specfic use
+     */
     private void setupDataBase() {
         DaoMaster.DevOpenHelper helper = new DaoMaster.DevOpenHelper(this, DATABASE_NAME);
         Database db = helper.getWritableDb();
